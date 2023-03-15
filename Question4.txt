@@ -1,0 +1,12 @@
+Big 0 notation for Question 2: 
+
+The time complexity for the push and pop methods is O(1) because they only perform a constant number of operations regardless of the size of the stack.
+The time complexity for the peek and isEmpty methods is also O(1) because they simply access a single element or check if the stack is empty, which takes a constant amount of time.
+The time complexity for the printStack method is O(n) where n is the number of elements in the stack because it iterates through each element in the stack and prints it out.
+Therefore, the overall time complexity of the LinkedStack class is O(n) for the printStack method and O(1) for all other methods.
+
+Big 0 notation for Question 3: 
+he time complexity for the enqueue and dequeue methods is O(1) because they only perform a constant number of operations regardless of the size of the queue.
+The time complexity for the peek and isEmpty methods is also O(1) because they simply access a single element or check if the queue is empty, which takes a constant amount of time.
+The time complexity for the printQueue method is O(n) where n is the number of elements in the queue because it iterates through each element in the queue and prints it out.
+Therefore, the overall time complexity of the LinkedQueue class is O(n) for the printQueue method and O(1) for all other methods.
